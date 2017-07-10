@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+        <menu>
+          <add id="Sayed_MyCv::mycv" title="Greetings" translate="title" module="Sayed_MyCv" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="Sayed_MyCv" resource="Sayed_MyCv::mycv"/>
+          <add id="Sayed_MyCv::mycv_output" title="My CV" translate="title" module="Sayed_MyCv" parent="Sayed_MyCv::mycv" sortOrder="10" dependsOnModule="Sayed_MyCv" action="mycv/output" resource="Sayed_MyCv::mycv"/>
+        </menu>
+    </config>
